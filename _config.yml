@@ -1,9 +1,9 @@
 title:            Suman's World
-description:      An engineer by profession, Teacher at heart.
-logo:             logo.png
+description:      Nerds Rule.
+i#logo:             logo.png
 disqus_shortname: SumanKumar
-share:            true
-dropcap:			true
+#share:            true
+#dropcap:			true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
@@ -15,7 +15,7 @@ owner:
   avatar:         sumankumar.jpg
   email:          
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Yet another linux kernel device driver developer.
+  description:    Yet another linux device driver developer.
   # Social networking links used in footer. Update and remove as you like.
   #twitter:        
   #facebook:       
