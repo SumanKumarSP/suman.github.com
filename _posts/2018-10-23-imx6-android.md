@@ -11,7 +11,7 @@ imagefeature: cover9.jpg
 
 makekernel.sh
 
-`#!/bin/sh
+#!/bin/sh
 
 cd out/target/product/cid
 
@@ -33,7 +33,7 @@ make distclean
 
 cd -
 
-mv tags kernel_imx/`
+mv tags kernel_imx/
 
 make -j16 bootimage
 
