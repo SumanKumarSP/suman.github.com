@@ -74,7 +74,31 @@ init.config.ip
 
 ### **LINUX KERNEL**
 
-> cat /sys/kernel/debug/gpio
+`checkpatch.pl --no-tree --terse --file filename.c`
+
+`cat /sys/kernel/debug/gpio`
+
+---
+
+**DTB to DTS**
+
+> fdtdump command is part of device-tree-compiler package, install as below to get:
+>
+> `sudo apt-get install device-tree-compiler`
+
+
+Method-1:
+
+`$KERNEL/scripts/dtc/dtc -I dtb -O dts -o <dts_file> <dtb_file>`
+
+Method-2:
+
+`fdtdump <dtb_file> > <dts_dump>`
+
+
+**DTS to DTB**
+
+`$KERNEL/scripts/dtc/dtc -I dts -O dtb -o <dtb_file> <dts_file>`
 
 ---
 
