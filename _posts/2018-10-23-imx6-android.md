@@ -36,10 +36,9 @@ imagefeature: cover9.jpg
 > mv tags kernel_imx/
 > 
 > make -j16 bootimage
-> 
-<!--script src="https://gist.github.com/SumanKumarSP/d92fa660476fa866761fc0bee3567fff.js"></script-->
-> 
-> {% gist d92fa660476fa866761fc0bee3567fff test.md %}
+>
+
+{% gist d92fa660476fa866761fc0bee3567fff test.md %}
 
 ---
 
