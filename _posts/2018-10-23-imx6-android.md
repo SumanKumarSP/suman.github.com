@@ -26,9 +26,9 @@ cd -
 mv tags kernel_imx/
 make -j16 bootimage
 
-{% gist d92fa660476fa866761fc0bee3567fff makekernel.sh %}
-
 ```
+
+{% gist d92fa660476fa866761fc0bee3567fff makekernel.sh %}
 
 ---
 
