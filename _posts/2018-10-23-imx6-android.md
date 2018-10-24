@@ -5,6 +5,7 @@ description: "This post contains tips and tricks to build individual components 
 category: technical
 tags: [imx6, compilation, android]
 imagefeature: cover9.jpg
+
 ---
 
 **ANDROID KERNEL**
@@ -36,9 +37,10 @@ imagefeature: cover9.jpg
 > mv tags kernel_imx/
 > 
 > make -j16 bootimage
->
 
-{% gist d92fa660476fa866761fc0bee3567fff test.md %}
+<script src="https://gist.github.com/SumanKumarSP/d92fa660476fa866761fc0bee3567fff.js"></script>
+
+{% gist d92fa660476fa866761fc0bee3567fff makekernel.sh %}
 
 ---
 
