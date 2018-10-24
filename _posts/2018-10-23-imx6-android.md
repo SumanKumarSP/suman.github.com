@@ -9,33 +9,33 @@ imagefeature: cover9.jpg
 
 **ANDROID KERNEL**
 
-makekernel.sh
+`makekernel.sh`
 
-#!/bin/sh
+`#!/bin/sh`
 
-cd out/target/product/cid
+`cd out/target/product/cid`
 
-rm boot.img
+`rm boot.img`
 
-rm boot/zImage
+`rm boot/zImage`
 
-rm ./boot/imx6q-cid.dtb ./boot/imx6q-cid2.dtb
+`rm ./boot/imx6q-cid.dtb ./boot/imx6q-cid2.dtb`
 
-cd -
+`cd -`
 
-cd kernel_imx
+`cd kernel_imx`
 
-mv tags ../
+`mv tags ../`
 
-rm .config
+`rm .config`
 
-make distclean
+`make distclean`
 
-cd -
+`cd -`
 
-mv tags kernel_imx/
+`mv tags kernel_imx/`
 
-make -j16 bootimage
+`make -j16 bootimage`
 
 ---
 
