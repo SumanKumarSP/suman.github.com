@@ -638,11 +638,15 @@ iframe {
 }
 
 .gist {
-   max-width:350px;
+   max-width:700px;
+   margin-left: auto;
+   margin-right: auto;
    overflow:auto;
 }
 
 .gist .blob-wrapper.data {
    max-height:200px;
+   margin-left: auto;
+   margin-right: auto;
    overflow:auto;
 }
