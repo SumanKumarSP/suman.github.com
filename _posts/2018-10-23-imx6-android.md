@@ -36,22 +36,14 @@ make -j16 bootimage
 
 ```
 
-rm -rf android/out/target/product/cid/obj/NOTICE_FILES/src/system/lib/libsierrahl-ril.so.txt
-rm -rf android/out/target/product/cid/obj/PACKAGING/target_files_intermediates/cid-target_files-20181008/SYSTEM/lib/libsierrahl-ril.so
-rm -rf android/out/target/product/cid/obj/SHARED_LIBRARIES/libsierrahl-ril_intermediates/LINKED/libsierrahl-ril.so
-rm -rf android/out/target/product/cid/obj/SHARED_LIBRARIES/libsierrahl-ril_intermediates/PACKED/libsierrahl-ril.so
-rm -rf android/out/target/product/cid/obj/lib/libsierrahl-ril.so
-rm -rf android/out/target/product/cid/symbols/system/lib/libsierrahl-ril.so
-rm -rf android/out/target/product/cid/system/lib/libsierrahl-ril.so
+{% gist 3ffcc77b8e3c4272163bbf64054c6eee Sierra HLxx series RIL compilation.md %}
 
 ```
 
->rm android/out/target/product/cid/obj/PACKAGING/target_files_intermediates/cid-target_files-20181008/SYSTEM/etc/apns-conf.xml
->rm android/out/target/product/cid/system/etc/apns-conf.xml
-
->mmm hardware/sierra/
-
->make -j16
+```
+rm android/out/target/product/cid/obj/PACKAGING/target_files_intermediates/cid-target_files-20181008/SYSTEM/etc/apns-conf.xml
+rm android/out/target/product/cid/system/etc/apns-conf.xml
+```
 
 ---
 
