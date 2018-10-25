@@ -16,11 +16,9 @@ imagefeature: cover9.jpg
 
 **Sierra HLxx series RIL compilation**
 
-```
-
 {% gist 3ffcc77b8e3c4272163bbf64054c6eee sierraHL-RilCompilation %}
 
-```
+---
 
 ```
 rm android/out/target/product/cid/obj/PACKAGING/target_files_intermediates/cid-target_files-20181008/SYSTEM/etc/apns-conf.xml
