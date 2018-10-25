@@ -10,24 +10,6 @@ imagefeature: cover9.jpg
 
 **ANDROID KERNEL**
 
-```
-makekernel.sh
-#!/bin/sh
-cd out/target/product/cid
-rm boot.img
-rm boot/zImage
-rm ./boot/imx6q-cid.dtb ./boot/imx6q-cid2.dtb
-cd -
-cd kernel_imx
-mv tags ../
-rm .config
-make distclean
-cd -
-mv tags kernel_imx/
-make -j16 bootimage
-
-```
-
 {% gist d92fa660476fa866761fc0bee3567fff makekernel.sh %}
 
 ---
@@ -36,7 +18,7 @@ make -j16 bootimage
 
 ```
 
-{% gist 3ffcc77b8e3c4272163bbf64054c6eee Sierra HLxx series RIL compilation.md %}
+{% gist 3ffcc77b8e3c4272163bbf64054c6eee sierraHL-RilCompilation %}
 
 ```
 
