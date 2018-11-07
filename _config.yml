@@ -71,6 +71,8 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+  input: GFM
+
 prose:
   rooturl: '_posts'
   siteurl: 'https://sumankumarsp.github.io/'
