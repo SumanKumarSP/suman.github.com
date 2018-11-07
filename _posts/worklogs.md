@@ -1,0 +1,139 @@
+﻿---
+layout: post
+title: "work logbook"
+description: "This post is a logbook of my work progress"
+category: work
+tags: [professional growth]
+imagefeature: cover9.jpg
+
+---
+##**Q418-1116**
+
+```
+- [X] Trident Rev2 Touch screen. Identified Power-On Reset (POR) was not working leading to not updating the Touch screen firmware.
+- [ ] 13MP camera exploration with documentation.
+- [ ] C2 new Rev2 display flicker issue.
+- [ ] Intema USB issue after hardware rework.
+- [ ] Intema USB modem crash making modem go off the USB bus. 
+- [X] Reviewed the patch for dynamic OTA URL updates.
+- [ ] Oreo porting on C2 plan.
+
+```
+
+---
+##**Backlog**
+
+```
+- [ ] BCAT new tamper issues.
+- [ ] Gray bars for signal strength and operator name not shown in Settings apk but shown in android dashboard.
+- [ ] GPS coordinates on google maps SDK app issues
+- [ ] C2 backlight not turning ON. PWM controls to check
+
+```
+
+---
+##**Q418-1102**
+
+```
+- [X] Intema SIM card failures. Identified it as assembly issue. 
+- [X] RTC fix validation on C2 drawing current of 450 microamps when device is powered off.
+- [X] Operator name based on AT+CGMR command to get the baseband version to distinguish between verizon and ATT firmware.
+- [X] Verizon data connection stability issue fixed generically using Default_CID() without affecting modem firmware versions.
+- [X] CredenceTWO Rev2 new display validation. 
+
+```
+
+---
+##**Q418-1019**
+
+```
+- [X] Unknown baseband issue (3PV3) not powering-up modem. 
+- [X] 2 connection notify toggling usblink to disconnect (kernel patch)
+- [X] Verizon network name not shown issue fix
+- [X] Android CDD 9.0 document creation.
+- [X] 13MP e-con systems camera demonstration.
+
+```
+
+---
+##**Q418_1005**
+
+```
+- [X] BCAT RMA devices support
+- [X] Oreo Porting demo with Sample Finger Print application
+
+```
+
+---
+##**Q318_0921**
+
+```
+- [X] BCAT OS 5K units for HomeCredit. 
+- [X] Accelero and gyro sensor not detected sometimes. 
+
+```
+
+---
+##**Q318_0907**
+
+```
+- [X] VBUS detection limiting charge current to 0.10mA on CredenceTWO
+- [X] Fix for Modem enumeration patch impacting battery performance. 
+
+```
+
+---
+##**Q318_0824**
+
+```
+- [X] FingerPrint match application using CredenceSDK.
+
+```
+
+---
+##**Q318_0810**
+
+```
+- [X] Camera Torch brightness control 
+- [X] Bootloader switch script to flash bootloader on Rev2A, Rev3 eMMc of CredenceTWO. 
+
+```
+
+---
+##**Q318_0727**
+
+```
+- [X] CredenceTWO LED behavior for Rev2A and Rev3 boards. 
+- [X] CredenceTAB airplane mode only OS. 
+
+```
+
+---
+##**Q318_0713**
+
+```
+- [X] Private APN for Intuate Spain
+- [X] Verizon bring-up on HL7588 for CredenceTWO
+
+```
+
+---
+##**Q218**
+
+```
+- [X] C2 Columbo Parallel FP Porting
+- [X] C2 FP bugfixes (Simultaneous working of Camera and FP) and documentation
+- [X] C2 Modem enumeration issue fix. Prepared script to test boot-reboot cycles.
+- [X] C2 Airplane mode always ON Custom OS build
+- [X] Trident 1G: Identified root cause to be file system not being mounted. Prabu fixed eMMC version in kernel.
+- [X] Updated jenkins build script file to auto-pick java version based on product variant.
+- [X] Build.prop modified device manufacturer, boardname and FingerPrint release keys for C2
+- [X] C2 Display going off when USB is unplugged. (Identified root cause to be USB used as main power source rather than battery).
+- [X] BCAT serial key generation procedure and validation.
+- [X] Removed device-type flag in C2 and Tab builds.
+- [X] Disabled C-Service, C-SDKApp and pushed new apk updates for C2.
+- [X] C2 Green LED fix (Gary changes on new build)
+
+```
+
+---
