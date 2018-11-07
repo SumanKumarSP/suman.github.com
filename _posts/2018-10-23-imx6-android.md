@@ -8,7 +8,7 @@ imagefeature: cover9.jpg
 
 ---
 
-**ANDROID KERNEL**
+**Android Kernel**
 
 {% gist d92fa660476fa866761fc0bee3567fff makekernel.sh %}
 
@@ -22,6 +22,7 @@ imagefeature: cover9.jpg
 
 ```
 rm android/out/target/product/cid/obj/PACKAGING/target_files_intermediates/cid-target_files-20181008/SYSTEM/etc/apns-conf.xml
+
 rm android/out/target/product/cid/system/etc/apns-conf.xml
 ```
 
