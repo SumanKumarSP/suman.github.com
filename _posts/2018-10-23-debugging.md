@@ -89,29 +89,6 @@ Method-2:
 
 ---
 
-### **GIT**
-
-`git remote add upstream https://github.com/boundarydevices/linux-imx6.git`
-
-
-`git fetch --all`
-
-
-`git cherry-pick commitid`
-
-
-`git push -u origin localbranch:remotebranch`
-
-
-`git branch -rvv`
-
-
-`git branch -lvv`
-
-
-`git blame filename`
-
-
 ---
 
 
