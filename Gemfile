@@ -1,7 +1,7 @@
+source 'https://rubygems.org'
+# gem 'github-pages', group: :jekyll_plugins
+
 group :jekyll_plugins do
-  gem "jekyll-sitemap"
-  gem "jekyll-paginate"
-  gem "jekyll-gist"
-  gem "jemoji"
-  gem "rouge"
-end
+    gem 'github-pages'
+    gem 'jekyll-algolia', '~> 1.0'
+  end

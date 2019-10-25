@@ -1,0 +1,17 @@
+_site
+.sass-cache
+.idea
+.local
+.local/*
+.jekyll-cache
+.bundle
+*.gem
+Gemfile.lock
+devlopr.gemspec
+.DS_Store
+.jekyll
+.jekyll-metadata
+Gemfile
+Gemfile.lock
+node_modules
+package.json
